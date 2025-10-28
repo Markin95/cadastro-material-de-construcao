@@ -1,0 +1,62 @@
+h1,h2{
+    text-align: center;
+    color: #212121;
+    font-size: 2vw;
+    font-family: 'Montserrat';
+}
+body{
+    background-color: #F4F7F6;
+    min-height: 100vh;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Montserrat';
+}
+#container-central{
+    top: 40%;
+    text-align: center;
+}
+#div-barra-pesq{
+    text-align: center;
+}
+#barra-pesquisa{
+    border-color: white;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(223, 226, 225);
+    text-align: center;
+    font-family: 'Montserrat';
+    background-color: #d1d0d7;
+    outline:none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, height 0.3s ease;
+}
+#barra-pesquisa:hover{
+    cursor: pointer;
+    background-color:#f7fa3a ;
+    box-shadow: 0 0 12px rgb(180, 189, 57);
+    height: 50px;
+}
+
+#botoes{
+    text-align: center;
+
+}
+.btn{
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(223, 226, 225);
+    font-family: 'Montserrat';
+    color: black;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, height 0.3s ease;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:#f7fa3a ;
+    box-shadow: 0 0 12px rgb(180, 189, 57);
+    height: 50px;
+
+
+}
